@@ -9,7 +9,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-html', 'coc-css', 'coc-stylua', 'coc-tsserver', 'coc-prettier', 'coc-pairs', 'coc-emmet', 'coc-eslint', 'coc-angular', '@yaegassy/coc-tailwindcss3', 'coc-java', 'coc-markdownlint', 'coc-snippets', 'coc-xml']
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-html', 'coc-css', 'coc-stylua', 'coc-tsserver', 'coc-prettier', 'coc-pairs', 'coc-emmet', 'coc-eslint', 'coc-angular', '@yaegassy/coc-tailwindcss3', 'coc-java', 'coc-markdownlint', 'coc-snippets', 'coc-xml', 'coc-sql']
 
 set encoding=utf-8
 " set scrolloff=7
