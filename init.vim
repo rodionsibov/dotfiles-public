@@ -10,13 +10,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-html', 'coc-css', 'coc-tsserver', 'coc-prettier', 'coc-pairs', 'coc-emmet', 'coc-eslint', 'coc-angular', '@yaegassy/coc-tailwindcss3', '@yaegassy/coc-marksman', 'coc-snippets', 'coc-sql', 'coc-yaml']
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-html', 'coc-css', 'coc-tsserver', 'coc-prettier', 'coc-pairs', 'coc-emmet', 'coc-eslint', 'coc-angular', '@yaegassy/coc-tailwindcss3', '@yaegassy/coc-marksman', 'coc-snippets', 'coc-java', 'coc-sql', 'coc-yaml']
 
 set encoding=utf-8
 " set scrolloff=7
 set relativenumber
 colorscheme gruvbox
 set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+au BufRead,BufNewFile *.njk setfiletype html
 
 " Some servers have issues with backup files, see #649.
 set nobackup
