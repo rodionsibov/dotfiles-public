@@ -8,6 +8,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mbbill/undotree'
 call plug#end()
 
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-html', 'coc-css', 'coc-tsserver', 'coc-prettier', 'coc-pairs', 'coc-emmet', 'coc-eslint', 'coc-angular', '@yaegassy/coc-tailwindcss3', '@yaegassy/coc-marksman', 'coc-snippets', 'coc-java', 'coc-sql', 'coc-yaml']
